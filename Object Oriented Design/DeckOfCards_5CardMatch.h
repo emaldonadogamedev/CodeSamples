@@ -37,7 +37,7 @@ int fiveCardMatch(int numOfPlayers, CardDeck& deck)
       const CardDeck::Card& currentCard = deck.getNextCardTop();
 
       //add 10 if the value is J, Q, or K... simply if it's greater than 9
-      currentSum += currentCard.value;
+      currentSum += currentCard.value > 9 ? 10 : currentCard.value;
     }
 
     //if the currentSum is greater than the winner's sum then update
