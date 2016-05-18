@@ -2,13 +2,12 @@
 
 float My_atof(char* aValue)
 {
-  /*Note: For the purposes of this test I am assuming the following:
+  /*Note: For the purposes of this problem I am assuming the following:
   1) The aValue pointer is properly formatted and does not have any
   non numerical characters other than the '.' and that it may contain
   an f at the end exclusively. Ex: 12.09f, -1.009f, 0.009f, -655f, 0f, 0, etc.
 
   2) The string is null terminated
-  3) We're using c++ 11
   */
   if (!aValue)
     //assumption: if the pointer is a null value then we return 0.0f
