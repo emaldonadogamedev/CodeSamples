@@ -7,7 +7,7 @@ using std::cin;
 
 void function1()
 {
-  cout << "OYE PAPAAAAAAAA!!\n";
+  cout << "Test message!!\n";
 }
 
 int main(int argc, char** argv)

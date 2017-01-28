@@ -23,14 +23,14 @@ public:
     for (int i = 0; i > -100; --i)
     {
       cout << "t1 says: " << msg.c_str() << endl;
-      msg = "Cambiame esto pai!";
+      msg = "Message from the Fctor!";
     }
   }
 };
 
 int main(int argc, char** argv)
 {
-  string s = "Un mensajito pa ti mami";
+  string s = "Message from main";
   Fctor fc1;
   //std::thread t1(fc1); //t1 starts running
   
